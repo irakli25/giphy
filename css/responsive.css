@@ -1,0 +1,133 @@
+@media all and (max-width:960px) and (min-width : 800px){
+    .container{
+        width:90%;
+    }
+
+    #gifsContainer{
+        justify-content: space-around;
+    }
+
+    input{
+        width:50%;
+    }
+    .searchWrapper{
+        width: 80%;
+    }
+    #history{
+        width:75%;
+    }
+}
+
+@media all and (max-width:800px) and (min-width : 670px){
+    .container{
+        width:90%;
+
+    }
+
+    #gifsContainer{
+        justify-content: space-around;
+    }
+
+    input{
+        width:45%;
+    }
+    .searchWrapper{
+        width: 85%;
+    }
+    #closePlayer {
+        right:35px;
+    }
+    #history{
+        width:80%;
+    }
+}
+
+
+
+@media all and (max-width:670px) and (min-width : 520px){
+    .container{
+        width:90%;
+
+    }
+
+    #gifsContainer{
+        justify-content: space-around;
+    }
+
+    input{
+        width:38%;
+    }
+    .searchWrapper{
+        width: 100%;
+    }
+    #closePlayer {
+        right:35px;
+    }
+    #history{
+        width:100%;
+    }
+}
+
+
+@media all and (max-width:520px) and (min-width : 320px){
+    .container{
+        width:90%;
+
+    }
+
+    #gifsContainer{
+        justify-content: space-around;
+    }
+
+    input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .searchWrapper{
+        width: 100%;
+        flex-wrap:wrap;
+    }
+    #closePlayer {
+        right:35px;
+    }
+    #history{
+        width:100%;
+    }
+
+}
+
+
+@media all and  (max-width:320px)  {
+    
+    body{
+        min-width:320px;
+        display:block;
+    }
+
+    .container{
+        width:90%;
+
+    }
+
+    #gifsContainer{
+        justify-content: space-around;
+    }
+
+    input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .searchWrapper{
+        width: 100%;
+        flex-wrap:wrap;
+    }
+    #closePlayer {
+        right:35px;
+    }
+
+    #history{
+        width:100%;
+    }
+
+}
+

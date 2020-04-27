@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giphy</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css"/>
+    <meta name="theme-color" content="#ce9c6f">
+</head>
+<body>
+    <header>
+            <h1>Giphy</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div id = "search" class="searchWrapper">
+                <input id="searchInput" type="text" placeholder="Search ... "/>
+                <button id="searchButton" >Submit</button>
+                <button id="trendButton">See what's trending</button>
+            </div>
+            <div id = "history"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div id="gifsContainer" >
+
+            </div>
+        </div>
+    </section>
+
+    <sectin id="play" class="player hide">
+        <div id ="playerContent"></div>
+        <div id = "closePlayer"></div>
+    </sectin>
+
+
+    
+
+    <script type="module" src="js/main.js"> </script>
+</body>
+</html>
