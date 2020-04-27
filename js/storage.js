@@ -2,12 +2,12 @@ import {LoadGifs} from "./loadgifs.js";
 
 class Storage {
     constructor(){
-        this.getList();
         this.add("Internet Cats");
         this.add("Meme's");
         this.add("Typing");
         this.add("Space");
         this.add("Rick and Morty");
+        this.getList();
     }
     add = (word) =>{
         if(word != "")
